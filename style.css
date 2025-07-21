@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body {
+  width: 320px;
+  font-family: 'Inter', Arial, sans-serif;
+  background-color: #0f0f0f;
+  padding: 24px;
+  margin: 0;
+  box-sizing: border-box;
+  color: #eaeaea;
+}
+
+#widget {
+  background: linear-gradient(135deg, #1e1e1e, #2b2b2b);
+  border-radius: 16px;
+  padding: 28px 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+  transition: transform 0.2s ease, box-shadow 0.3s ease-in-out;
+}
+
+#widget:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 28px rgba(255, 193, 7, 0.2);
+}
+
+#title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffcc00;
+  margin-bottom: 12px;
+  letter-spacing: 0.4px;
+}
+
+#problem {
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 12px;
+}
+
+#platform {
+  font-size: 13px;
+  font-weight: 600;
+  background-color: #212121;
+  color: #ffb300;
+  padding: 6px 14px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+#difficulty {
+  font-size: 13px;
+  font-weight: 600;
+  padding: 6px 14px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  display: inline-block;
+  background-color: #424242;
+  color: #f5f5f5;
+}
+
+/* Difficulty colors */
+[data-difficulty="Easy"] #difficulty {
+  background-color: #33691e;
+  color: #aeea00;
+}
+
+[data-difficulty="Medium"] #difficulty {
+  background-color: #ff8f00;
+  color: #fffde7;
+}
+
+[data-difficulty="Hard"] #difficulty {
+  background-color: #b71c1c;
+  color: #ffcdd2;
+}
+
+a {
+  display: inline-block;
+  margin-top: 18px;
+  padding: 12px 24px;
+  background-color: #ffcc00;
+  color: #000000;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+a:hover {
+  background-color: #f9a825;
+  box-shadow: 0 4px 14px rgba(255, 235, 59, 0.3);
+}

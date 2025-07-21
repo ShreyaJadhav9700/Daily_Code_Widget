@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Daily Coding Challenge",
+  "description": "Get a daily coding problem to practice.",
+  "version": "1.0",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icons/icon.png"
+  },
+  "permissions": [
+    "storage"
+  ]
+}
